@@ -1,7 +1,5 @@
-import Form from './components/Form';
 import WeatherGrid from './components/WeatherGrid';
 import { useState } from 'react';
-
 
 function App() {
 

@@ -4,7 +4,7 @@
 }
 
 body {
-    /* background-image: url('../src/images/clouds.jpg'); */
+    background-color:ghostwhite;
     font-family: nanum;
     font-size: 16px;
     height: 200vh;
@@ -43,8 +43,8 @@ button:hover {
     perspective: 1000px;
     background-color: white;
     padding: 1rem;
-    border: 1px solid gray;
     border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
   
@@ -80,4 +80,18 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.rainy {
+    background: url('./images/rainy.jpg');
+    color: white;
+}
+
+.cloudy {
+    background: url('./images/cloudy.webp');
+}
+
+.clear {
+    background: url('./images/clear.webp');
+    color: white;
 }
