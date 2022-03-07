@@ -1,19 +1,30 @@
 import Form from './components/Form';
-import Weather from './components/Weather';
+import WeatherGrid from './components/WeatherGrid';
 import { useState } from 'react';
+
 
 function App() {
 
-  const [city, setCity] = useState("");
+  const [cities, setCities] = useState(['New York', 'London', 'Paris', 'Beijing', 'Tokyo']);
+  
   const submitForm = (event) => {
     event.preventDefault();
-    setCity(event.target[0].value);
+    setCities([...cities, event.target[0].value]);
+    console.log(cities);
+  };
+
+  const [hideForm, setHideForm] = useState(true);
+
+  const handleClick = () => {
+    console.log("I was clicked")
+    setHideForm(!hideForm);
   };
 
   return (
-    <div className="App">
-      <Form submitForm={submitForm} />
-      <Weather city={city} />
+    <div className="app">
+      <h1>Get Weather Data</h1>
+      <Form submitForm={ submitForm } show={ hideForm } />
+      <WeatherGrid click={ handleClick } cities= { cities } />
     </div>
   );
 }
