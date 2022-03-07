@@ -26,7 +26,7 @@ const WeatherGrid = (props) => {
             </div>)
         })
       }
-      <NewCard click={ props.click } />
+      <NewCard click={ props.click } submitForm={ props.submitForm }  />
     </div>
   )
 };
