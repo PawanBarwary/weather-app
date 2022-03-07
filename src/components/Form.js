@@ -6,7 +6,7 @@ const Form = (props) => {
     <div className='container' >
       <form onSubmit={ props.submitForm } className="form">
         <label>Enter a City</label>
-        <input type="text"></input>
+        <input type="text" placeholder='Stockholm'></input>
         <button type="submit">Get weather</button>
       </form>
     </div>

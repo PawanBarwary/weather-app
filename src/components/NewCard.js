@@ -5,8 +5,8 @@ const NewCard = (props) => {
   
 
   return (
-    <div className="flip-card">
-      <div className="flip-card-inner card">
+    <div className="card">
+      <div className="flip-card-inner">
         <div className="flip-card-front center">
           +
         </div>

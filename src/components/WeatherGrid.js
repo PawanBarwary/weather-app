@@ -13,6 +13,7 @@ const WeatherGrid = (props) => {
     setCityData(response);
   });
   }, [props.cities])
+
   
 
   return (
@@ -22,7 +23,9 @@ const WeatherGrid = (props) => {
           return (
             <div key={city.name} className="card" > 
               <h2> {city.name} </h2> 
-              <p> {city.weather.main.temp + "°C"} </p>
+              <p> <b>Temperature</b> {city.weather.main.temp + "°C"} </p>
+              <p> <b>Wind</b> {city.weather.wind.speed + "m/s"} </p>
+              <p> { city.weather.weather[0].main } </p>
             </div>)
         })
       }

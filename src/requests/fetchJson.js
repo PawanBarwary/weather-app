@@ -9,7 +9,7 @@ const fetchJson = async (city) => {
     return { weather: response.data, name: response.data.name };
   }
   catch {
-    return "Could not retrieve your request";
+    return null;
   } 
 };
 
