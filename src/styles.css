@@ -40,11 +40,14 @@ button:hover {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     perspective: 1000px;
     background-color: white;
     padding: 1rem;
     border-radius: 15px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    min-height: 100px;
 }
 
   
@@ -94,4 +97,32 @@ button:hover {
 .clear {
     background: url('./images/clear.webp');
     color: white;
+}
+
+.snowy {
+    background: url('./images/snowy.jpg');
+}
+
+.error {
+    background-color: black;
+}
+
+.error h2 {
+    color: white;
+}
+
+.remove-button {
+    cursor: pointer;
+    display: flex;
+}
+
+.remove-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+input[type='text'] { 
+    padding: .5rem 1rem;
+    border-radius: .5rem; 
 }
