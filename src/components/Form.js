@@ -1,12 +1,11 @@
-import '../styles.css'
+import "../styles.css";
 
 const Form = (props) => {
-
   return (
-    <div className='container' >
-      <form onSubmit={ props.submitForm } className="form">
+    <div className="container">
+      <form onSubmit={props.submitForm} className="form">
         <label>Enter a City</label>
-        <input type="text" placeholder='Stockholm'></input>
+        <input type="text" placeholder="Stockholm"></input>
         <button type="submit">Get weather</button>
       </form>
     </div>
