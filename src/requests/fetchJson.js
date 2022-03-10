@@ -15,10 +15,8 @@ const fetchJson = async (city) => {
     };
   } catch (err) {
     return {
-      name: "Error 404: Did you type in a valid city?",
-      temp: "",
-      wind: "",
-      main: "",
+      name: city,
+      error: `Error 404: Are you sure that you meant "${city}"`
     };
   }
 };

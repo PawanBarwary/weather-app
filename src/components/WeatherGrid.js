@@ -50,6 +50,7 @@ const WeatherGrid = (props) => {
                 X
               </div>
             </div>
+            {!city.error &&
             <div>
               <h2> {city.name} </h2>
               <p>
@@ -61,7 +62,10 @@ const WeatherGrid = (props) => {
               <p>
                 <b>Main</b> {city.main}
               </p>
-            </div>
+            </div>}
+            {city.error &&
+            <h2>{city.error}</h2>
+            }
           </div>
         );
       })}
