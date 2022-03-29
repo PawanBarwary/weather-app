@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.219672cd.css",
-    "main.js": "/static/js/main.5301cf28.js",
-    "static/media/NanumGothic-Regular.ttf": "/static/media/NanumGothic-Regular.6c84540de7730f833d6c.ttf",
-    "static/media/snowy.jpg": "/static/media/snowy.139e1757a64c7d7a60fd.jpg",
-    "static/media/cloudy.webp": "/static/media/cloudy.c2e8c7a7176a00923786.webp",
-    "static/media/rainy.jpg": "/static/media/rainy.298414a12cc1e93de73e.jpg",
-    "static/media/clear.webp": "/static/media/clear.5ff20d144b55ad62a259.webp",
-    "index.html": "/index.html",
-    "main.219672cd.css.map": "/static/css/main.219672cd.css.map",
-    "main.5301cf28.js.map": "/static/js/main.5301cf28.js.map"
+    "main.css": "/weather-app/static/css/main.d80e6334.css",
+    "main.js": "/weather-app/static/js/main.5301cf28.js",
+    "static/media/NanumGothic-Regular.ttf": "/weather-app/static/media/NanumGothic-Regular.6c84540de7730f833d6c.ttf",
+    "static/media/snowy.jpg": "/weather-app/static/media/snowy.139e1757a64c7d7a60fd.jpg",
+    "static/media/cloudy.webp": "/weather-app/static/media/cloudy.c2e8c7a7176a00923786.webp",
+    "static/media/rainy.jpg": "/weather-app/static/media/rainy.298414a12cc1e93de73e.jpg",
+    "static/media/clear.webp": "/weather-app/static/media/clear.5ff20d144b55ad62a259.webp",
+    "index.html": "/weather-app/index.html",
+    "main.d80e6334.css.map": "/weather-app/static/css/main.d80e6334.css.map",
+    "main.5301cf28.js.map": "/weather-app/static/js/main.5301cf28.js.map"
   },
   "entrypoints": [
-    "static/css/main.219672cd.css",
+    "static/css/main.d80e6334.css",
     "static/js/main.5301cf28.js"
   ]
 }
